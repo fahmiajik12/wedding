@@ -337,7 +337,7 @@ body {
 }
 
 footer {
-  padding: 3rem;
+  padding: 0.1rem; /* Mengurangi padding menjadi 1rem */
   background-color: var(--pink);
   color: white;
 }
@@ -352,10 +352,12 @@ footer a:hover {
   color: white;
 }
 
+/* Menghapus properti list-style dan margin, serta menggabungkan dengan footer a */
+footer a,
 footer li {
   list-style: none;
   display: inline;
-  margin: 0.5rem;
+  margin: 0.1rem;
 }
 
 .audio-icon-wrapper {
